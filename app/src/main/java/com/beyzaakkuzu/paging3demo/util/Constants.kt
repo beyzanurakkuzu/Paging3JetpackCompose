@@ -5,4 +5,6 @@ object Constants {
     const val UNSPLASH_IMAGE_TABLE= "unsplash_image_table"
     const val UNSPLASH_REMOTE_KEYS_TABLE="unsplash_reemote_keys_table"
     const val UNSPLASH_DATABASE="unpslash_database"
+
+    const val ITEMS_PER_PAGE = 10
 }
