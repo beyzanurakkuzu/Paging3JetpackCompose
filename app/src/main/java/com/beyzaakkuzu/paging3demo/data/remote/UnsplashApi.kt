@@ -16,7 +16,7 @@ interface UnsplashApi {
         @Query("per_page") per_page:Int
     ): List<UnsplashImage>
 
-    @Headers("Authorization: Client-ID ${BuildConfig.API_KEY} ")
+    @Headers("Authorization: Client-ID ${BuildConfig.API_KEY}")
     @GET("/search/photos")
     suspend fun  searchImages(
         @Query("page") page:Int,

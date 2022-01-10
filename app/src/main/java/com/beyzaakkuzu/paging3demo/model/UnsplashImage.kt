@@ -10,10 +10,10 @@ import kotlinx.serialization.Serializable
 @Entity(tableName = UNSPLASH_IMAGE_TABLE)
 data class UnsplashImage(
     @PrimaryKey(autoGenerate = false)
-    val id:String,
+    val id: String,
     @Embedded
     val urls: Urls,
     val likes: Int,
     @Embedded
-    val user:User
+    val user: User
 )

@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.navigation.compose.rememberNavController
 import androidx.paging.ExperimentalPagingApi
+import coil.annotation.ExperimentalCoilApi
 import com.beyzaakkuzu.paging3demo.navigation.SetupNavGraph
 import com.beyzaakkuzu.paging3demo.ui.theme.Paging3demoTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -24,3 +25,6 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+
+
